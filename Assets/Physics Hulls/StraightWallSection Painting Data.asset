@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0de965f2e710c1c489ead8e62cd25da0, type: 3}
+  m_Name: StraightWallSection Painting Data
+  m_EditorClassIdentifier: 
+  hullData: {fileID: 11400000, guid: 04391db05d29baf418f4365ffb8ef136, type: 2}
+  sourceMesh: {fileID: 1778293962886604836, guid: a0326b017441f5947a7b75cd624221ab,
+    type: 3}
+  sourceMeshHash:
+    data: 57a0ed3899294ccd074393b18e0626a6c3182d89
+  activeHull: 1
+  faceThickness: 0.1
+  hulls:
+  - name: Hull 2
+    isVisible: 1
+    type: 1
+    colour: {r: 1, g: 0, b: 1, a: 0.7}
+    material: {fileID: 0}
+    enableInflation: 0
+    inflationAmount: 0.01
+    boxFitMethod: 1
+    maxPlanes: 255
+    isTrigger: 0
+    isChildCollider: 0
+    selectedFaces: 20000000210000001d0000001c0000000d0000000c0000001900000018000000
+    cachedTriangleVertices:
+    - {x: 0, y: 2.280239, z: 0.88856107}
+    - {x: -8, y: 2.280239, z: 0.88856107}
+    - {x: -8, y: 4.310509, z: -0.00014146924}
+    - {x: 0, y: 2.280239, z: 0.88856107}
+    - {x: -8, y: 4.310509, z: -0.00014146924}
+    - {x: 0, y: 4.310509, z: -0.00014146924}
+    - {x: -8, y: 4.310509, z: 0.21596113}
+    - {x: 0, y: 2.280239, z: 1.1046714}
+    - {x: 0, y: 4.310509, z: 0.21596113}
+    - {x: -8, y: 4.310509, z: 0.21596113}
+    - {x: -8, y: 2.280239, z: 1.0899199}
+    - {x: 0, y: 2.280239, z: 1.1046714}
+    - {x: 0, y: 4.310509, z: 0.21596113}
+    - {x: 0, y: 2.280239, z: 0.88856107}
+    - {x: 0, y: 4.310509, z: -0.00014146924}
+    - {x: 0, y: 4.310509, z: 0.21596113}
+    - {x: 0, y: 2.280239, z: 1.1046714}
+    - {x: 0, y: 2.280239, z: 0.88856107}
+    - {x: -8, y: 2.280239, z: 1.0899199}
+    - {x: -8, y: 4.310509, z: 0.21596113}
+    - {x: -8, y: 4.310509, z: -0.00014146924}
+    - {x: -8, y: 2.280239, z: 1.0899199}
+    - {x: -8, y: 4.310509, z: -0.00014146924}
+    - {x: -8, y: 2.280239, z: 0.88856107}
+    collisionMesh: {fileID: -2586889891077862837, guid: 04391db05d29baf418f4365ffb8ef136,
+      type: 2}
+    faceCollisionMesh: {fileID: 0}
+    faceBoxCenter: {x: 0, y: 0, z: 0}
+    faceBoxSize: {x: 0, y: 0, z: 0}
+    faceAsBoxRotation: {x: 0, y: 0, z: 0, w: 0}
+    autoMeshes: []
+    hasColliderError: 0
+    numColliderFaces: 12
+    noInputError: 0
+  - name: Hull 2
+    isVisible: 1
+    type: 1
+    colour: {r: 1, g: 0, b: 1, a: 0.7}
+    material: {fileID: 0}
+    enableInflation: 0
+    inflationAmount: 0.01
+    boxFitMethod: 1
+    maxPlanes: 255
+    isTrigger: 0
+    isChildCollider: 0
+    selectedFaces: 07000000060000001200000013000000
+    cachedTriangleVertices:
+    - {x: -8, y: 2.280239, z: 1.0899199}
+    - {x: 0, y: 0.2499625, z: 0.21596143}
+    - {x: 0, y: 2.280239, z: 1.1046714}
+    - {x: -8, y: 2.280239, z: 1.0899199}
+    - {x: -8, y: 0.2499625, z: 0.21596143}
+    - {x: 0, y: 0.2499625, z: 0.21596143}
+    - {x: 0, y: 0.2499625, z: -0.00014116267}
+    - {x: -8, y: 0.2499625, z: -0.00014116267}
+    - {x: -8, y: 2.280239, z: 0.88856107}
+    - {x: 0, y: 0.2499625, z: -0.00014116267}
+    - {x: -8, y: 2.280239, z: 0.88856107}
+    - {x: 0, y: 2.280239, z: 0.88856107}
+    collisionMesh: {fileID: -923185342304110739, guid: 04391db05d29baf418f4365ffb8ef136,
+      type: 2}
+    faceCollisionMesh: {fileID: 0}
+    faceBoxCenter: {x: 0, y: 0, z: 0}
+    faceBoxSize: {x: 0, y: 0, z: 0}
+    faceAsBoxRotation: {x: 0, y: 0, z: 0, w: 0}
+    autoMeshes: []
+    hasColliderError: 0
+    numColliderFaces: 12
+    noInputError: 0
+  autoHullPreset: 1
+  vhacdParams:
+    concavity: 0.001
+    alpha: 0.05
+    beta: 0.05
+    minVolumePerCH: 0.0001
+    resolution: 100000
+    maxNumVerticesPerCH: 64
+    planeDownsampling: 4
+    convexhullDownsampling: 4
+    pca: 0
+    mode: 0
+    convexhullApproximation: 1
+    oclAcceleration: 0
+    maxConvexHulls: 1024
+    projectHullVertices: 1
+  hasLastVhacdTimings: 0
+  lastVhacdPreset: 1
+  lastVhacdDurationSecs: 0
+  suppressMeshModificationWarning: 0

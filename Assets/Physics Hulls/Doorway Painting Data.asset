@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0de965f2e710c1c489ead8e62cd25da0, type: 3}
+  m_Name: Doorway Painting Data
+  m_EditorClassIdentifier: 
+  hullData: {fileID: 11400000, guid: cee053d9326e8b6408250831b83ec318, type: 2}
+  sourceMesh: {fileID: 978912613816088730, guid: 181fcd09896809e40a831eb5f5043458,
+    type: 3}
+  sourceMeshHash:
+    data: c74d0b32657406211e4ed6f7987674109d100a59
+  activeHull: 2
+  faceThickness: 0.1
+  hulls:
+  - name: Hull 1
+    isVisible: 1
+    type: 1
+    colour: {r: 0, g: 1, b: 1, a: 0.7}
+    material: {fileID: 0}
+    enableInflation: 0
+    inflationAmount: 0.01
+    boxFitMethod: 1
+    maxPlanes: 255
+    isTrigger: 0
+    isChildCollider: 0
+    selectedFaces: 240000002500000004000000050000001e0000001f0000000800000009000000
+    cachedTriangleVertices:
+    - {x: 0.21331501, y: 0, z: -0.00000047683716}
+    - {x: 0.21331501, y: 0.00000023841858, z: -3.114355}
+    - {x: 0.21341416, y: 2.6313164, z: -3.1143553}
+    - {x: 0.21331501, y: 0, z: -0.00000047683716}
+    - {x: 0.21341416, y: 2.6313164, z: -3.1143553}
+    - {x: 0.21331501, y: 2.0303144, z: 0.88884115}
+    - {x: 0.21331501, y: 2.0303144, z: 0.88884115}
+    - {x: 0.21341416, y: 2.6313164, z: -3.1143553}
+    - {x: 0.21331501, y: 4.060546, z: -3.114355}
+    - {x: 0.21331501, y: 2.0303144, z: 0.88884115}
+    - {x: 0.21331501, y: 4.060546, z: -3.114355}
+    - {x: 0.21331501, y: 4.0605464, z: -0.00000047683716}
+    - {x: 0.000000012714565, y: 0.00000023841858, z: -3.114355}
+    - {x: 0, y: 0, z: -0.00000047683716}
+    - {x: 0, y: 2.0303144, z: 0.88884115}
+    - {x: 0.000000012714565, y: 0.00000023841858, z: -3.114355}
+    - {x: 0, y: 2.0303144, z: 0.88884115}
+    - {x: 0.00009919268, y: 2.6313164, z: -3.114355}
+    - {x: 0.00009919268, y: 2.6313164, z: -3.114355}
+    - {x: 0, y: 2.0303144, z: 0.88884115}
+    - {x: 0, y: 4.0605464, z: -0.00000047683716}
+    - {x: 0.00009919268, y: 2.6313164, z: -3.114355}
+    - {x: 0, y: 4.0605464, z: -0.00000047683716}
+    - {x: 0.000000012714565, y: 4.060546, z: -3.114355}
+    collisionMesh: {fileID: -9143279693422176434, guid: cee053d9326e8b6408250831b83ec318,
+      type: 2}
+    faceCollisionMesh: {fileID: 0}
+    faceBoxCenter: {x: 0, y: 0, z: 0}
+    faceBoxSize: {x: 0, y: 0, z: 0}
+    faceAsBoxRotation: {x: 0, y: 0, z: 0, w: 0}
+    autoMeshes:
+    - {fileID: -2135777677789273762, guid: cee053d9326e8b6408250831b83ec318, type: 2}
+    hasColliderError: 0
+    numColliderFaces: 18
+    noInputError: 0
+  - name: Hull 2
+    isVisible: 1
+    type: 1
+    colour: {r: 1, g: 0, b: 1, a: 0.7}
+    material: {fileID: 0}
+    enableInflation: 0
+    inflationAmount: 0.01
+    boxFitMethod: 1
+    maxPlanes: 255
+    isTrigger: 0
+    isChildCollider: 0
+    selectedFaces: 02000000030000000a0000000b00000018000000
+    cachedTriangleVertices:
+    - {x: 0.21341416, y: 2.6313164, z: -3.1143553}
+    - {x: 0.21351334, y: 2.6313035, z: -4.885648}
+    - {x: 0.21331501, y: 4.060546, z: -4.885647}
+    - {x: 0.21341416, y: 2.6313164, z: -3.1143553}
+    - {x: 0.21331501, y: 4.060546, z: -4.885647}
+    - {x: 0.21331501, y: 4.060546, z: -3.114355}
+    - {x: 0.00019837265, y: 2.6313035, z: -4.8856473}
+    - {x: 0.00009919268, y: 2.6313164, z: -3.114355}
+    - {x: 0.000000012714565, y: 4.060546, z: -3.114355}
+    - {x: 0.00019837265, y: 2.6313035, z: -4.8856473}
+    - {x: 0.000000012714565, y: 4.060546, z: -3.114355}
+    - {x: 0.000000012714565, y: 4.060546, z: -4.885647}
+    - {x: 0.000000012714565, y: 4.060546, z: -4.885647}
+    - {x: 0.000000012714565, y: 4.060546, z: -3.114355}
+    - {x: 0.21331501, y: 4.060546, z: -3.114355}
+    collisionMesh: {fileID: 7116846356447738566, guid: cee053d9326e8b6408250831b83ec318,
+      type: 2}
+    faceCollisionMesh: {fileID: 0}
+    faceBoxCenter: {x: 0, y: 0, z: 0}
+    faceBoxSize: {x: 0, y: 0, z: 0}
+    faceAsBoxRotation: {x: 0, y: 0, z: 0, w: 0}
+    autoMeshes: []
+    hasColliderError: 0
+    numColliderFaces: 12
+    noInputError: 0
+  - name: Hull 3
+    isVisible: 1
+    type: 1
+    colour: {r: 1, g: 1, b: 0, a: 0.7}
+    material: {fileID: 0}
+    enableInflation: 0
+    inflationAmount: 0.01
+    boxFitMethod: 1
+    maxPlanes: 255
+    isTrigger: 0
+    isChildCollider: 0
+    selectedFaces: 0c0000000d0000001a000000290000002800000000000000010000002300000022000000
+    cachedTriangleVertices:
+    - {x: 0.00029754627, y: 2.0302763, z: -8.888702}
+    - {x: 0.00019837265, y: 2.6313035, z: -4.8856473}
+    - {x: 0.000000012714565, y: 4.060546, z: -4.885647}
+    - {x: 0.00029754627, y: 2.0302763, z: -8.888702}
+    - {x: 0.000000012714565, y: 4.060546, z: -4.885647}
+    - {x: 0, y: 4.0605464, z: -8}
+    - {x: 0, y: 4.0605464, z: -8}
+    - {x: 0.000000012714565, y: 4.060546, z: -4.885647}
+    - {x: 0.21331501, y: 4.060546, z: -4.885647}
+    - {x: 0, y: 0, z: -8}
+    - {x: 0.00019837265, y: 2.6313035, z: -4.8856473}
+    - {x: 0.00029754627, y: 2.0302763, z: -8.888702}
+    - {x: 0, y: 0, z: -8}
+    - {x: 0.000000012714565, y: 0.00000023841858, z: -4.885647}
+    - {x: 0.00019837265, y: 2.6313035, z: -4.8856473}
+    - {x: 0.21351334, y: 2.6313035, z: -4.885648}
+    - {x: 0.21361256, y: 2.0302763, z: -8.888702}
+    - {x: 0.21331501, y: 4.0605464, z: -8}
+    - {x: 0.21351334, y: 2.6313035, z: -4.885648}
+    - {x: 0.21331501, y: 4.0605464, z: -8}
+    - {x: 0.21331501, y: 4.060546, z: -4.885647}
+    - {x: 0.21331501, y: 0.00000023841858, z: -4.885647}
+    - {x: 0.21361256, y: 2.0302763, z: -8.888702}
+    - {x: 0.21351334, y: 2.6313035, z: -4.885648}
+    - {x: 0.21331501, y: 0.00000023841858, z: -4.885647}
+    - {x: 0.21331501, y: 0, z: -8}
+    - {x: 0.21361256, y: 2.0302763, z: -8.888702}
+    collisionMesh: {fileID: -8992232655847716302, guid: cee053d9326e8b6408250831b83ec318,
+      type: 2}
+    faceCollisionMesh: {fileID: 0}
+    faceBoxCenter: {x: 0, y: 0, z: 0}
+    faceBoxSize: {x: 0, y: 0, z: 0}
+    faceAsBoxRotation: {x: 0, y: 0, z: 0, w: 0}
+    autoMeshes: []
+    hasColliderError: 0
+    numColliderFaces: 18
+    noInputError: 0
+  autoHullPreset: 1
+  vhacdParams:
+    concavity: 0.001
+    alpha: 0.05
+    beta: 0.05
+    minVolumePerCH: 0.0001
+    resolution: 100000
+    maxNumVerticesPerCH: 64
+    planeDownsampling: 4
+    convexhullDownsampling: 4
+    pca: 0
+    mode: 0
+    convexhullApproximation: 1
+    oclAcceleration: 0
+    maxConvexHulls: 1024
+    projectHullVertices: 1
+  hasLastVhacdTimings: 0
+  lastVhacdPreset: 1
+  lastVhacdDurationSecs: 0
+  suppressMeshModificationWarning: 0
