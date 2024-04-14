@@ -17,79 +17,9 @@ MonoBehaviour:
     type: 3}
   sourceMeshHash:
     data: 319854ddbe9bbfb3de9ff61e59611a5b7a1f483a
-  activeHull: 1
+  activeHull: 0
   faceThickness: 0.1
-  hulls:
-  - name: Hull 1
-    isVisible: 1
-    type: 1
-    colour: {r: 0, g: 1, b: 1, a: 0.7}
-    material: {fileID: 0}
-    enableInflation: 0
-    inflationAmount: 0.01
-    boxFitMethod: 1
-    maxPlanes: 255
-    isTrigger: 0
-    isChildCollider: 0
-    selectedFaces: 1d0000001c0000002100000020000000
-    cachedTriangleVertices:
-    - {x: -4, y: 4.310509, z: 0.21596113}
-    - {x: 0, y: 2.280239, z: 1.1046714}
-    - {x: 0, y: 4.310509, z: 0.21596113}
-    - {x: -4, y: 4.310509, z: 0.21596113}
-    - {x: -4, y: 2.280239, z: 1.0899199}
-    - {x: 0, y: 2.280239, z: 1.1046714}
-    - {x: 0, y: 2.280239, z: 0.88856107}
-    - {x: -4, y: 4.310509, z: -0.00014146924}
-    - {x: 0, y: 4.310509, z: -0.00014146924}
-    - {x: 0, y: 2.280239, z: 0.88856107}
-    - {x: -4, y: 2.280239, z: 0.88856107}
-    - {x: -4, y: 4.310509, z: -0.00014146924}
-    collisionMesh: {fileID: 389807013821894125, guid: a44c849965054924e8e66fd721648bb8,
-      type: 2}
-    faceCollisionMesh: {fileID: 0}
-    faceBoxCenter: {x: 0, y: 0, z: 0}
-    faceBoxSize: {x: 0, y: 0, z: 0}
-    faceAsBoxRotation: {x: 0, y: 0, z: 0, w: 0}
-    autoMeshes: []
-    hasColliderError: 0
-    numColliderFaces: 12
-    noInputError: 0
-  - name: Hull 2
-    isVisible: 1
-    type: 1
-    colour: {r: 1, g: 0, b: 1, a: 0.7}
-    material: {fileID: 0}
-    enableInflation: 0
-    inflationAmount: 0.01
-    boxFitMethod: 1
-    maxPlanes: 255
-    isTrigger: 0
-    isChildCollider: 0
-    selectedFaces: 12000000130000000700000006000000
-    cachedTriangleVertices:
-    - {x: 0, y: 0.2499625, z: -0.00014116267}
-    - {x: -4, y: 0.2499625, z: -0.00014116267}
-    - {x: -4, y: 2.280239, z: 0.88856107}
-    - {x: 0, y: 0.2499625, z: -0.00014116267}
-    - {x: -4, y: 2.280239, z: 0.88856107}
-    - {x: 0, y: 2.280239, z: 0.88856107}
-    - {x: -4, y: 2.280239, z: 1.0899199}
-    - {x: 0, y: 0.2499625, z: 0.21596143}
-    - {x: 0, y: 2.280239, z: 1.1046714}
-    - {x: -4, y: 2.280239, z: 1.0899199}
-    - {x: -4, y: 0.2499625, z: 0.21596143}
-    - {x: 0, y: 0.2499625, z: 0.21596143}
-    collisionMesh: {fileID: -2306934180422053696, guid: a44c849965054924e8e66fd721648bb8,
-      type: 2}
-    faceCollisionMesh: {fileID: 0}
-    faceBoxCenter: {x: 0, y: 0, z: 0}
-    faceBoxSize: {x: 0, y: 0, z: 0}
-    faceAsBoxRotation: {x: 0, y: 0, z: 0, w: 0}
-    autoMeshes: []
-    hasColliderError: 0
-    numColliderFaces: 12
-    noInputError: 0
+  hulls: []
   autoHullPreset: 1
   vhacdParams:
     concavity: 0.001

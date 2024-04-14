@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0de965f2e710c1c489ead8e62cd25da0, type: 3}
-  m_Name: StraightWallSection Painting Data
+  m_Name: StraightWallSection2 1 Painting Data
   m_EditorClassIdentifier: 
-  hullData: {fileID: 11400000, guid: 04391db05d29baf418f4365ffb8ef136, type: 2}
-  sourceMesh: {fileID: 1778293962886604836, guid: a0326b017441f5947a7b75cd624221ab,
+  hullData: {fileID: 11400000, guid: c9f86f03796c17240b43e6c600a49c9b, type: 2}
+  sourceMesh: {fileID: 2085930143304962373, guid: aa5d6a888a1eb3d428eeac5f25a232fa,
     type: 3}
   sourceMeshHash:
-    data: 57a0ed3899294ccd074393b18e0626a6c3182d89
+    data: 33a893dc7847884b36d80672b79296d75657a6da
   activeHull: 1
   faceThickness: 0.1
   hulls:
-  - name: Hull 2
+  - name: Hull 1
     isVisible: 1
     type: 1
-    colour: {r: 0, g: 1, b: 0.11573911, a: 0.7}
+    colour: {r: 0, g: 1, b: 1, a: 0.7}
     material: {fileID: 0}
     enableInflation: 0
     inflationAmount: 0.01
@@ -31,33 +31,21 @@ MonoBehaviour:
     maxPlanes: 255
     isTrigger: 0
     isChildCollider: 0
-    selectedFaces: 20000000210000001d0000001c0000000d0000000c0000001900000018000000
+    selectedFaces: 1c0000001d0000002100000020000000
     cachedTriangleVertices:
+    - {x: -3, y: 4.310509, z: 0.21596113}
+    - {x: -2.9999928, y: 2.280239, z: 1.1048774}
+    - {x: 0.0000000022494473, y: 2.280239, z: 1.0898436}
+    - {x: -3, y: 4.310509, z: 0.21596113}
+    - {x: 0.0000000022494473, y: 2.280239, z: 1.0898436}
+    - {x: 0, y: 4.310509, z: 0.21596113}
     - {x: 0, y: 2.280239, z: 0.88856107}
-    - {x: -8, y: 2.280239, z: 0.88856107}
-    - {x: -8, y: 4.310509, z: -0.00014146924}
-    - {x: 0, y: 2.280239, z: 0.88856107}
-    - {x: -8, y: 4.310509, z: -0.00014146924}
+    - {x: -3, y: 4.310509, z: -0.00014146924}
     - {x: 0, y: 4.310509, z: -0.00014146924}
-    - {x: -8, y: 4.310509, z: 0.21596113}
-    - {x: 0, y: 2.280239, z: 1.1046714}
-    - {x: 0, y: 4.310509, z: 0.21596113}
-    - {x: -8, y: 4.310509, z: 0.21596113}
-    - {x: -8, y: 2.280239, z: 1.0899199}
-    - {x: 0, y: 2.280239, z: 1.1046714}
-    - {x: 0, y: 4.310509, z: 0.21596113}
     - {x: 0, y: 2.280239, z: 0.88856107}
-    - {x: 0, y: 4.310509, z: -0.00014146924}
-    - {x: 0, y: 4.310509, z: 0.21596113}
-    - {x: 0, y: 2.280239, z: 1.1046714}
-    - {x: 0, y: 2.280239, z: 0.88856107}
-    - {x: -8, y: 2.280239, z: 1.0899199}
-    - {x: -8, y: 4.310509, z: 0.21596113}
-    - {x: -8, y: 4.310509, z: -0.00014146924}
-    - {x: -8, y: 2.280239, z: 1.0899199}
-    - {x: -8, y: 4.310509, z: -0.00014146924}
-    - {x: -8, y: 2.280239, z: 0.88856107}
-    collisionMesh: {fileID: -2586889891077862837, guid: 04391db05d29baf418f4365ffb8ef136,
+    - {x: -3, y: 2.280239, z: 0.88856107}
+    - {x: -3, y: 4.310509, z: -0.00014146924}
+    collisionMesh: {fileID: -5845950721506466881, guid: c9f86f03796c17240b43e6c600a49c9b,
       type: 2}
     faceCollisionMesh: {fileID: 0}
     faceBoxCenter: {x: 0, y: 0, z: 0}
@@ -70,7 +58,7 @@ MonoBehaviour:
   - name: Hull 2
     isVisible: 1
     type: 1
-    colour: {r: 0, g: 0.038607597, b: 1, a: 0.7}
+    colour: {r: 1, g: 0, b: 1, a: 0.7}
     material: {fileID: 0}
     enableInflation: 0
     inflationAmount: 0.01
@@ -78,21 +66,21 @@ MonoBehaviour:
     maxPlanes: 255
     isTrigger: 0
     isChildCollider: 0
-    selectedFaces: 07000000060000001200000013000000
+    selectedFaces: 12000000130000000700000006000000
     cachedTriangleVertices:
-    - {x: -8, y: 2.280239, z: 1.0899199}
-    - {x: 0, y: 0.2499625, z: 0.21596143}
-    - {x: 0, y: 2.280239, z: 1.1046714}
-    - {x: -8, y: 2.280239, z: 1.0899199}
-    - {x: -8, y: 0.2499625, z: 0.21596143}
-    - {x: 0, y: 0.2499625, z: 0.21596143}
     - {x: 0, y: 0.2499625, z: -0.00014116267}
-    - {x: -8, y: 0.2499625, z: -0.00014116267}
-    - {x: -8, y: 2.280239, z: 0.88856107}
+    - {x: -3, y: 0.2499625, z: -0.00014116267}
+    - {x: -3, y: 2.280239, z: 0.88856107}
     - {x: 0, y: 0.2499625, z: -0.00014116267}
-    - {x: -8, y: 2.280239, z: 0.88856107}
+    - {x: -3, y: 2.280239, z: 0.88856107}
     - {x: 0, y: 2.280239, z: 0.88856107}
-    collisionMesh: {fileID: -923185342304110739, guid: 04391db05d29baf418f4365ffb8ef136,
+    - {x: -2.9999928, y: 2.280239, z: 1.1048774}
+    - {x: 0, y: 0.2499625, z: 0.21596143}
+    - {x: 0.0000000022494473, y: 2.280239, z: 1.0898436}
+    - {x: -2.9999928, y: 2.280239, z: 1.1048774}
+    - {x: -3, y: 0.2499625, z: 0.21596143}
+    - {x: 0, y: 0.2499625, z: 0.21596143}
+    collisionMesh: {fileID: -4209364773991334069, guid: c9f86f03796c17240b43e6c600a49c9b,
       type: 2}
     faceCollisionMesh: {fileID: 0}
     faceBoxCenter: {x: 0, y: 0, z: 0}

@@ -1,12 +1,24 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!43 &-2586889891077862837
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74576fe588befbe4087dd6600108db92, type: 3}
+  m_Name: StraightWallSection 1 Hull Data
+  m_EditorClassIdentifier: 
+--- !u!43 &5233569591510240073
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Hull 2
+  m_Name: Hull 1
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -35,7 +47,7 @@ Mesh:
   m_KeepVertices: 1
   m_KeepIndices: 1
   m_IndexFormat: 0
-  m_IndexBuffer: 050001000300050003000000070001000500070005000000040001000700040007000200040002000300040003000100060003000200060002000700060007000000060000000300
+  m_IndexBuffer: 020000000100020001000700030004000100030001000000050001000400050007000100060007000500060005000400060004000300060003000000060000000200060002000700
   m_VertexData:
     serializedVersion: 3
     m_VertexCount: 8
@@ -97,7 +109,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 96
-    _typelessdata: 0000c0c070ef1140bd78633f00000000b1ef89405c5714b90000c0c0b1ef8940ea245d3ea2fb7f386cef11400f8d8b3f00000000b1ef8940ea245d3e0000000070ef1140bd78633f0000c0c070ef11407f828b3f0000c0c0b1ef89405c5714b9
+    _typelessdata: 0000c0c0b1ef8940ea245d3ea2fb7f386cef11400f8d8b3f00000000b1ef8940ea245d3e0000c0c070ef11407f828b3f0000c0c070ef1140bd78633f0000000070ef1140bd78633f0000c0c0b1ef89405c5714b900000000b1ef89405c5714b9
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -154,7 +166,7 @@ Mesh:
     m_Center: {x: -2.9999695, y: 3.2953737, z: 0.5450504}
     m_Extent: {x: 3.0000305, y: 1.0151355, z: 0.5451919}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 26
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -165,7 +177,7 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!43 &-923185342304110739
+--- !u!43 &6885170377578343371
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -200,7 +212,7 @@ Mesh:
   m_KeepVertices: 1
   m_KeepIndices: 1
   m_IndexFormat: 0
-  m_IndexBuffer: 020001000000030001000200030004000100050004000300050003000200070000000100070001000400060000000700060007000400060004000500060005000200060002000000
+  m_IndexBuffer: 050006000400070004000600070006000100070001000000070000000400030005000400030004000000020005000300020003000000020000000100020001000600020006000500
   m_VertexData:
     serializedVersion: 3
     m_VertexCount: 8
@@ -262,7 +274,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 96
-    _typelessdata: 0000c0c070ef11407f828b3fa2fb7f386cef11400f8d8b3f0000c0c02bf67f3efe245d3e000000002bf67f3efe245d3e000000002bf67f3e110514b90000c0c02bf67f3e110514b90000c0c070ef1140bd78633f0000000070ef1140bd78633f
+    _typelessdata: 000000002bf67f3e110514b90000c0c02bf67f3e110514b90000c0c070ef1140bd78633f0000000070ef1140bd78633fa2fb7f386cef11400f8d8b3f0000c0c070ef11407f828b3f0000c0c02bf67f3efe245d3e000000002bf67f3efe245d3e
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -319,7 +331,7 @@ Mesh:
     m_Center: {x: -2.9999695, y: 1.2651008, z: 0.54505056}
     m_Extent: {x: 3.0000305, y: 1.0151383, z: 0.5451917}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 26
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -330,15 +342,3 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74576fe588befbe4087dd6600108db92, type: 3}
-  m_Name: StraightWallSection Hull Data
-  m_EditorClassIdentifier: 

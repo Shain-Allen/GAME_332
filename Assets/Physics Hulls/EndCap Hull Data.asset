@@ -1,6 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!43 &-1226436964940412814
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74576fe588befbe4087dd6600108db92, type: 3}
+  m_Name: EndCap Hull Data
+  m_EditorClassIdentifier: 
+--- !u!43 &2861402709214066345
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11,14 +23,14 @@ Mesh:
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
-    indexCount: 36
+    indexCount: 60
     topology: 0
     baseVertex: 0
     firstVertex: 0
-    vertexCount: 8
+    vertexCount: 12
     localAABB:
-      m_Center: {x: -1.5, y: 3.2953742, z: 0.5523679}
-      m_Extent: {x: 1.5, y: 1.015135, z: 0.5525094}
+      m_Center: {x: -0.10650873, y: 2.0303862, z: -2.999862}
+      m_Extent: {x: 0.10680628, y: 2.0302732, z: 3.8888404}
   m_Shapes:
     vertices: []
     shapes: []
@@ -35,10 +47,10 @@ Mesh:
   m_KeepVertices: 1
   m_KeepIndices: 1
   m_IndexFormat: 0
-  m_IndexBuffer: 010003000500020000000400020003000100020001000000060003000200060002000400060005000300070005000600070006000400070004000000070000000100070001000500
+  m_IndexBuffer: 0400020000000a00070008000a00080009000100030008000100080007000500030001000500010002000500020004000500090008000500080003000b00040000000b0000000a000b000a0009000b00090005000b0005000400060007000a0006000a000000060000000200060002000100060001000700
   m_VertexData:
     serializedVersion: 3
-    m_VertexCount: 8
+    m_VertexCount: 12
     m_Channels:
     - stream: 0
       offset: 0
@@ -96,8 +108,8 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    m_DataSize: 96
-    _typelessdata: 000040c070ef1140bd78633f0000000070ef1140bd78633f000040c0b1ef89405c5714b900000000b1ef89405c5714b9000040c0b1ef8940ea245d3eb2941a3170ef1140ff7f8b3f00000000b1ef8940ea245d3ee2ff3fc070ef11409f6c8d3f
+    m_DataSize: 144
+    _typelessdata: 40215abee6f101404070dcc0406f5abeecf0814000800f39406f5abeecf081400000c0c0406f5abe86f201401894633f406f5abe0020ed380000c0c0406f5abe0020ed3800800f3900000000ecf081400000c0c000000000ecf0814000800f390000000086f201401894633f000000000020ed3800800f3900009c39e6f101404070dcc0000000000020ed380000c0c0
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -151,8 +163,8 @@ Mesh:
       m_BitSize: 0
     m_UVInfo: 0
   m_LocalAABB:
-    m_Center: {x: -1.5, y: 3.2953742, z: 0.5523679}
-    m_Extent: {x: 1.5, y: 1.015135, z: 0.5525094}
+    m_Center: {x: -0.10650873, y: 2.0303862, z: -2.999862}
+    m_Extent: {x: 0.10680628, y: 2.0302732, z: 3.8888404}
   m_MeshUsageFlags: 0
   m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
@@ -165,15 +177,3 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74576fe588befbe4087dd6600108db92, type: 3}
-  m_Name: StraightWallSection2 Hull Data
-  m_EditorClassIdentifier: 

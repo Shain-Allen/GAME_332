@@ -70,15 +70,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a0326b017441f5947a7b75cd624221ab,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2772970803856736386}
+      addedObject: {fileID: 4807997576465517644}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a0326b017441f5947a7b75cd624221ab,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 6120683463956942485}
+      addedObject: {fileID: 4891705319782750647}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a0326b017441f5947a7b75cd624221ab,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8741958801985163150}
+      addedObject: {fileID: 2501968894517733251}
   m_SourcePrefab: {fileID: 100100000, guid: a0326b017441f5947a7b75cd624221ab, type: 3}
 --- !u!1 &7025453542040200470 stripped
 GameObject:
@@ -86,7 +86,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 7907763595329263687}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2772970803856736386
+--- !u!114 &4807997576465517644
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -98,9 +98,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86df15996814cff45aed711a3ccf2a0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paintingData: {fileID: 11400000, guid: c5c35ac1b8a81c64bb6deebbc9b50f32, type: 2}
-  hullData: {fileID: 11400000, guid: 04391db05d29baf418f4365ffb8ef136, type: 2}
---- !u!64 &6120683463956942485
+  paintingData: {fileID: 11400000, guid: 434247c433050e54890e42e1ebf5287c, type: 2}
+  hullData: {fileID: 11400000, guid: 17da63990c4b20944bb771967d90f754, type: 2}
+--- !u!64 &4891705319782750647
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,8 +121,8 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 26
-  m_Mesh: {fileID: -2586889891077862837, guid: 04391db05d29baf418f4365ffb8ef136, type: 2}
---- !u!64 &8741958801985163150
+  m_Mesh: {fileID: 5233569591510240073, guid: 17da63990c4b20944bb771967d90f754, type: 2}
+--- !u!64 &2501968894517733251
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,4 +143,4 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 26
-  m_Mesh: {fileID: -923185342304110739, guid: 04391db05d29baf418f4365ffb8ef136, type: 2}
+  m_Mesh: {fileID: 6885170377578343371, guid: 17da63990c4b20944bb771967d90f754, type: 2}
