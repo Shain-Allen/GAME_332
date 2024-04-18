@@ -6,6 +6,10 @@ TagManager:
   tags:
   - L
   - Generator_L
+  - T
+  - Generator_T
+  - Z
+  - Generator_Z
   layers:
   - Default
   - TransparentFX
